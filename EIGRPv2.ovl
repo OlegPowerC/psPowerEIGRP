@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueLookup id="EIGRPv2" desiredValue="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
+    <Lookups>
+        <SingleInt state="Ok" value="1">Normal</SingleInt>
+        <SingleInt state="Error" value="0">Unknown error</SingleInt>
+        <SingleInt state="Error" value="3">No neibghor</SingleInt>
+        <SingleInt state="Warning" value="2">Short uptime</SingleInt>
+    </Lookups>
+</ValueLookup>
